@@ -23,7 +23,7 @@ MAX_BLOCK = 50
 num_blocks = (N + MAX_BLOCK - 1) // MAX_BLOCK
 
 # Queries for blocks
-print(f"🔄 Processing of {N} locations in {num_blocks} blocks")
+print(f"Processing of {N} locations in {num_blocks} blocks")
 
 for i in tqdm(range(num_blocks)):
     for j in range(num_blocks):
